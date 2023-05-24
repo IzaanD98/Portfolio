@@ -7,9 +7,10 @@ export default function Skills() {
     <div>
       <Head>
         <title>Izaan Dalvi Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <main className="bg-gray-300 px-10">
-        <section className="min-h-screen">
+      <main className="bg-gray-300 px-10 min-h-screen">
+        <section>
           <Navbar />
           <SkillContent />
         </section>

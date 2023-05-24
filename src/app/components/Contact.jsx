@@ -2,14 +2,22 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import React from "react";
 import Link from "next/link";
 
-const HomeContent = () => {
+const ContactContent = () => {
   return (
     <div className="text-center p-10 md:flex md:justify-between md:items-center">
       <div className="text-left md:text-left md:mr-10 md:flex-1">
-        <h1 className="text-5xl py-2 text-teal-600 font-medium">Izaan Dalvi</h1>
+        <h1 className="text-5xl py-2 text-teal-600 font-medium">Contact</h1>
         <p className="text-2xl py-5 leading-8 text-gray-800 md:w-1/2 ">
-          I am a Software Developer based in London. Check out my work to see
-          what I can do for you.
+          Thank you for checking out my work! If you like what you see, please
+          do get in touch. I am open to web developer positions, collaboration,
+          projects, or just having a good chat. You can E-mail me directly on{" "}
+          <a
+            href="mailto:izaandalvi@gmail.com"
+            className="underline text-teal-600 hover:text-teal-700"
+          >
+            izaandalvi@gmail.com
+          </a>
+          . I look forward to hearing from you!
         </p>
         <Link
           href="/projects"
@@ -24,17 +32,19 @@ const HomeContent = () => {
             href="https://github.com/IzaanD98"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-teal-600"
+            className="hover:text-teal-600 flex items-center gap-2"
           >
             <AiFillGithub />
+            <p className="text-sm">Check out my Github</p>
           </a>
           <a
             href="https://www.linkedin.com/in/izaand/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-teal-600"
+            className="hover:text-teal-600 flex items-center gap-2"
           >
             <AiFillLinkedin />
+            <p className="text-sm">Connect via LinkedIn</p>
           </a>
         </div>
       </div>
@@ -42,4 +52,4 @@ const HomeContent = () => {
   );
 };
 
-export default HomeContent;
+export default ContactContent;

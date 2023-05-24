@@ -15,6 +15,10 @@ import {
   SiPostgresql,
   SiAxios,
   SiFlask,
+  SiAdobephotoshop,
+  SiCanva,
+  SiFigma,
+  SiNextdotjs,
 } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
@@ -51,7 +55,6 @@ const SkillContent = () => {
             <SiTailwindcss size={32} />
             <p className="ml-2">Tailwind CSS</p>
           </div>
-
           {/* Backend */}
           <div className="flex items-center">
             <SiMongodb size={32} />
@@ -77,7 +80,6 @@ const SkillContent = () => {
             <SiFlask size={32} />
             <p className="ml-2">Flask</p>
           </div>
-
           {/* Languages */}
           <div className="flex items-center">
             <SiSqlite size={32} />
@@ -94,6 +96,22 @@ const SkillContent = () => {
           <div className="flex items-center">
             <SiJest size={32} />
             <p className="ml-2">Jest</p>
+          </div>
+          <div className="flex items-center">
+            <SiNextdotjs size={32} />
+            <p className="ml-2">Next.js</p>
+          </div>
+          <div className="flex items-center">
+            <SiAdobephotoshop size={32} />
+            <p className="ml-2">Photoshop</p>
+          </div>
+          <div className="flex items-center">
+            <SiCanva size={32} />
+            <p className="ml-2">Canva</p>
+          </div>
+          <div className="flex items-center">
+            <SiFigma size={32} />
+            <p className="ml-2">Figma</p>
           </div>
         </div>
       </div>
