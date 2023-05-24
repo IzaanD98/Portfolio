@@ -12,10 +12,10 @@ const Navbar = () => {
           <Link href="/projects">Projects</Link>
         </li>
         <li>
-          <a href="#">Skills</a>
+          <Link href="/skills">Skills</Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link href="/contact">Contact</Link>
         </li>
         <li>
           <a className="bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-10">
