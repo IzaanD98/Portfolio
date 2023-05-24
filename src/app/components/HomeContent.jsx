@@ -1,5 +1,6 @@
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import React from "react";
+import Link from "next/link";
 
 const HomeContent = () => {
   return (
@@ -12,9 +13,12 @@ const HomeContent = () => {
           expertise in various technologies, including JavaScript, HTML, CSS,
           and SQL.
         </p>
-        <button className="border bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md">
+        <Link
+          href="/projects"
+          className="border bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+        >
           View Projects
-        </button>
+        </Link>
       </div>
       <div className="mt-8 md:mt-0">
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 md:justify-end md:flex-col md:gap-4">
