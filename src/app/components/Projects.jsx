@@ -189,7 +189,7 @@ const Projects = () => {
           </p>
           <div className="flex justify-start">
             <Link
-              href="https://insightcorner.netlify.app/"
+              href="https://plaidpal.nidhoggr.co.uk/"
               className="border bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-2 rounded-md mr-2"
             >
               Live
