@@ -29,7 +29,7 @@ const SkillContent = () => {
         <h1 className="text-5xl py-4 text-teal-600 font-medium">
           Skills & Stacks
         </h1>
-        <div className="grid grid-cols-3 md:grid-cols-5 gap-4 justify-center py-3 text-gray-600 md:justify-end md:flex-col md:gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 justify-center py-3 text-gray-600">
           {/* Frontend */}
           <div className="flex items-center">
             <SiJavascript size={32} />
@@ -118,4 +118,5 @@ const SkillContent = () => {
     </div>
   );
 };
+
 export default SkillContent;

@@ -21,10 +21,17 @@ const ContactContent = () => {
         </p>
         <Link
           href="/projects"
-          className="border bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+          className="border bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mb-4 md:mb-0 max-w-[150px]"
         >
           View Projects
         </Link>
+        <a
+          href="https://drive.google.com/file/d/1wUXTpJZw86r92EZmxYoVR5ywv0aHioHg/view?usp=sharing"
+          download
+          className="border bg-gradient-to-r from-cyan-500 to-gray-500 text-white px-4 py-2 rounded-md max-w-[150px]"
+        >
+          View Resume
+        </a>
       </div>
       <div className="mt-8 md:mt-0">
         <div className="text-5xl flex justify-center gap-16 py-20 text-gray-600 md:justify-end md:flex-col md:gap-4">
@@ -34,7 +41,7 @@ const ContactContent = () => {
             rel="noopener noreferrer"
             className="hover:text-teal-600 flex items-center gap-2"
           >
-            <AiFillGithub />
+            <AiFillGithub size={32} />
             <p className="text-sm">Check out my Github</p>
           </a>
           <a
@@ -43,7 +50,7 @@ const ContactContent = () => {
             rel="noopener noreferrer"
             className="hover:text-teal-600 flex items-center gap-2"
           >
-            <AiFillLinkedin />
+            <AiFillLinkedin size={32} />
             <p className="text-sm">Connect via LinkedIn</p>
           </a>
         </div>

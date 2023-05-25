@@ -20,7 +20,7 @@ const HomeContent = () => {
             View Projects
           </Link>
           <a
-            href="https://drive.google.com/file/d/1kKnsvPWBS-__28QH2zkpVY0GvQdNKrGb/view?usp=sharing"
+            href="https://drive.google.com/file/d/1wUXTpJZw86r92EZmxYoVR5ywv0aHioHg/view?usp=sharing"
             download
             className="border bg-gradient-to-r from-cyan-500 to-gray-500 text-white px-4 py-2 rounded-md max-w-[150px]"
           >

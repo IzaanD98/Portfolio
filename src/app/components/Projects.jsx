@@ -112,11 +112,11 @@ const Projects = () => {
             </li>
           </ul>
           <p className="text-sm text-left py-5 text-gray-800">
-            InsightCorner BE is a web application built with Node.js and
-            PostgreSQL. Users can read articles, post comments, and vote on
-            content. The server uses Express and is tested with Supertest and
-            Jest. The application ensures data integrity and reliability while
-            providing a seamless user experience.
+            InsightCorner BE is a server built with Node.js and PostgreSQL.
+            Users can read articles, post comments, and vote on content. The
+            server uses Express and is tested with Supertest and Jest. The
+            application ensures data integrity and reliability while providing a
+            seamless user experience.
           </p>
           <div className="flex justify-start">
             <Link
