@@ -7,16 +7,26 @@ const HomeContent = () => {
     <div className="text-center p-10 md:flex md:justify-between md:items-center">
       <div className="text-left md:text-left md:mr-10 md:flex-1">
         <h1 className="text-5xl py-2 text-teal-600 font-medium">Izaan Dalvi</h1>
-        <p className="text-2xl py-5 leading-8 text-gray-800 md:w-1/2 ">
-          I am a Software Developer based in London. Check out my work to see
-          what I can do for you.
+        <p className="text-2xl py-5 leading-8 text-gray-800 md:w-1/2">
+          I am a Software Developer based in London with expertise in
+          Javascript, React, SQL and NodeJs. Check out my work to see what I can
+          do for you.
         </p>
-        <Link
-          href="/projects"
-          className="border bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
-        >
-          View Projects
-        </Link>
+        <div className="flex flex-col md:flex-row md:space-x-4">
+          <Link
+            href="/projects"
+            className="border bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mb-4 md:mb-0 max-w-[150px]"
+          >
+            View Projects
+          </Link>
+          <a
+            href="https://drive.google.com/file/d/1kKnsvPWBS-__28QH2zkpVY0GvQdNKrGb/view?usp=sharing"
+            download
+            className="border bg-gradient-to-r from-cyan-500 to-gray-500 text-white px-4 py-2 rounded-md max-w-[150px]"
+          >
+            View Resume
+          </a>
+        </div>
       </div>
       <div className="mt-8 md:mt-0">
         <div className="text-5xl flex justify-center gap-16 py-20 text-gray-600 md:justify-end md:flex-col md:gap-4">

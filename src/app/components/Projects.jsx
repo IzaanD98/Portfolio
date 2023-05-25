@@ -10,7 +10,7 @@ import Studyfy from "../../../public/Studyfy.jpg";
 
 const Projects = () => {
   return (
-    <div className="container mx-auto p-10">
+    <div className="container mx-auto p-5">
       <div className="text-left">
         <h1 className="text-5xl py-2 text-teal-600 font-medium">
           Main Projects
