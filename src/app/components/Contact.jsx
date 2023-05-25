@@ -19,19 +19,21 @@ const ContactContent = () => {
           </a>
           . I look forward to hearing from you!
         </p>
-        <Link
-          href="/projects"
-          className="border bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mb-4 md:mb-0 max-w-[150px]"
-        >
-          View Projects
-        </Link>
-        <a
-          href="https://drive.google.com/file/d/1wUXTpJZw86r92EZmxYoVR5ywv0aHioHg/view?usp=sharing"
-          download
-          className="border bg-gradient-to-r from-cyan-500 to-gray-500 text-white px-4 py-2 rounded-md max-w-[150px]"
-        >
-          View Resume
-        </a>
+        <div className="flex flex-col md:flex-row md:space-x-4">
+          <Link
+            href="/projects"
+            className="border bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mb-4 md:mb-0 max-w-[150px]"
+          >
+            View Projects
+          </Link>
+          <a
+            href="https://drive.google.com/file/d/1wUXTpJZw86r92EZmxYoVR5ywv0aHioHg/view?usp=sharing"
+            download
+            className="border bg-gradient-to-r from-cyan-500 to-gray-500 text-white px-4 py-2 rounded-md max-w-[150px]"
+          >
+            View Resume
+          </a>
+        </div>
       </div>
       <div className="mt-8 md:mt-0">
         <div className="text-5xl flex justify-center gap-16 py-20 text-gray-600 md:justify-end md:flex-col md:gap-4">
