@@ -9,7 +9,7 @@ export default function Projects() {
         <title>Izaan Dalvi Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <main className="bg-gray-300 min-h-screen">
+      <main className="bg-gray-300 px-10 min-h-screen">
         <section>
           <Navbar />
           <ProjectContent />
