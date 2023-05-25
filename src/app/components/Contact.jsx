@@ -43,8 +43,7 @@ const ContactContent = () => {
             rel="noopener noreferrer"
             className="hover:text-teal-600 flex items-center gap-2"
           >
-            <AiFillGithub size={32} className="md:hidden" />
-            <AiFillGithub size={48} className="hidden md:block" />
+            <AiFillGithub size={48} />
             <p className="text-sm">Check out my Github</p>
           </a>
           <a
@@ -53,8 +52,7 @@ const ContactContent = () => {
             rel="noopener noreferrer"
             className="hover:text-teal-600 flex items-center gap-2"
           >
-            <AiFillLinkedin size={32} className="md:hidden" />
-            <AiFillLinkedin size={48} className="hidden md:block" />
+            <AiFillLinkedin size={48} />
             <p className="text-sm">Connect via LinkedIn</p>
           </a>
         </div>
