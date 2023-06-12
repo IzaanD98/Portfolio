@@ -363,6 +363,12 @@ const Projects = () => {
           </p>
           <div className="flex">
             <Link
+              href="https://studyfy.co.uk/"
+              className="border bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-2 rounded-md mr-2"
+            >
+              Live
+            </Link>
+            <Link
               href="https://github.com/IzaanD98/studyfy-BE"
               className="border bg-gradient-to-r from-cyan-500 to-gray-500 text-white px-6 py-2 rounded-md"
             >
