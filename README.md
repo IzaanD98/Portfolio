@@ -1,6 +1,6 @@
 # Portfolio website
 
-Link to live version : https://izaan.dev
+Link to live version : https://izaandalvi.dev
 
 ## Summary
 
